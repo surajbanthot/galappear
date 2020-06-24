@@ -6836,7 +6836,8 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
   /*shape-rendering: crispEdges;*/ }
 
 body {
-  background: #00796b; }
+  background: #00796b;
+  color: #ffffff; }
 
 .main-header {
   background: url(../img/pattern.png);
@@ -6846,3 +6847,23 @@ body {
   .main-header h1 {
     margin: 0;
     padding-top: 30px; }
+
+.img-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 300px; }
+
+.card-content {
+  color: #00796b; }
+
+.page-footer {
+  background: #212121; }
+  .page-footer .footer-copyright {
+    background: #424242; }
+
+.modal {
+  color: #333; }
+
+.row-1, .row-2, .row-3 {
+  opacity: 0; }
